@@ -48,7 +48,7 @@ function makeSound(key) {
       console.log(this);
   }
 }
-
+//adding animation here
 function buttnAnimation(currentKey) {
   var activeButtn = document.querySelector("." + currentKey);
   activeButtn.classList.add("pressed");
